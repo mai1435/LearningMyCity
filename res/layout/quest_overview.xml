@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background_quest_overview"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_quest_overview_bottom_margin"
+    android:paddingLeft="@dimen/activity_quest_overview_left_margin"
+    android:paddingRight="@dimen/activity_quest_overview_right_margin"
+    android:paddingTop="@dimen/activity_quest_overview_top_margin" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/message_quest_completed" />
+
+    <ImageView
+        android:id="@+id/image_quest"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:contentDescription="@string/title_main" />
+
+    <TextView
+        android:id="@+id/textview_total_score"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textview_wrong_ans_penalty"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textview_hints_penalty"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textview_penalty_message"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/button_next_quest"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_action_next_quest"
+        android:text="@string/button_quest_next" />
+
+</LinearLayout>

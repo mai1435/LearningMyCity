@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- activity_main -->
+    <dimen name="activity_main_horizontal_margin">32dp</dimen>
+    <dimen name="activity_main_vertical_margin">32dp</dimen>
+    <!-- description -->
+    <dimen name="activity_description_top_margin">110dp</dimen>
+    <dimen name="activity_description_bottom_margin">120dp</dimen>
+    <dimen name="activity_description_left_margin">110dp</dimen>
+    <dimen name="activity_description_right_margin">110dp</dimen>
+    <!-- footer_view -->
+    <dimen name="activity_footer_view_left_margin">50dp</dimen>
+    <!-- hints -->
+    <dimen name="activity_hints_top_margin">160dp</dimen>
+    <dimen name="activity_hints_bottom_margin">140dp</dimen>
+    <dimen name="activity_hints_left_margin">140dp</dimen>
+    <dimen name="activity_hints_right_margin">40dp</dimen>
+    <!-- leaderboard -->
+    <dimen name="activity_leaderboard_top_margin">100dp</dimen>
+    <dimen name="activity_leaderboard_bottom_margin">40dp</dimen>
+    <dimen name="activity_leaderboard_left_margin">40dp</dimen>
+    <dimen name="activity_leaderboard_right_margin">160dp</dimen>
+    <!-- path_list -->
+    <dimen name="activity_path_list_top_margin">100dp</dimen>
+    <dimen name="activity_path_list_bottom_margin">80dp</dimen>
+    <dimen name="activity_path_list_left_margin">50dp</dimen>
+    <dimen name="activity_path_list_right_margin">140dp</dimen>
+    <!-- path_overview -->
+    <dimen name="activity_path_overview_top_margin">110dp</dimen>
+    <dimen name="activity_path_overview_bottom_margin">40dp</dimen>
+    <dimen name="activity_path_overview_left_margin">80dp</dimen>
+    <dimen name="activity_path_overview_right_margin">80dp</dimen>
+    <!-- quest_overview -->
+    <dimen name="activity_quest_overview_top_margin">100dp</dimen>
+    <dimen name="activity_quest_overview_bottom_margin">40dp</dimen>
+    <dimen name="activity_quest_overview_left_margin">40dp</dimen>
+    <dimen name="activity_quest_overview_right_margin">160dp</dimen>
+    <!-- task -->
+    <dimen name="activity_task_margin">20dp</dimen>
+    <dimen name="activity_task_scroll_margin">60dp</dimen>
+
+</resources>

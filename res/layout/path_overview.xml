@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background_path_overview"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_path_overview_bottom_margin"
+    android:paddingLeft="@dimen/activity_path_overview_left_margin"
+    android:paddingRight="@dimen/activity_path_overview_right_margin"
+    android:paddingTop="@dimen/activity_path_overview_top_margin" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/message_path_completed" />
+
+    <TextView
+        android:id="@+id/textview_total_score"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:fadeScrollbars="false" >
+
+        <LinearLayout
+            android:id="@+id/layout_path_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/button_score_upload"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_action_next_quest"
+        android:text="@string/button_score_upload" />
+
+</LinearLayout>

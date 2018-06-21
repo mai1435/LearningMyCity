@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/exit_activity"
+        android:icon="@drawable/ic_action_close"
+        android:title="@string/action_settings"
+        yourapp:showAsAction="always"/>
+
+</menu>

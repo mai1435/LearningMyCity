@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/open_overview"
+        android:icon="@drawable/ic_action_overview"
+        android:title="@string/action_settings"
+        yourapp:showAsAction="always"/>
+    <item
+        android:id="@+id/open_hints"
+        android:icon="@drawable/ic_action_hint"
+        android:title="@string/action_settings"
+        yourapp:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/exit_activity"
+        android:icon="@drawable/ic_action_home"
+        android:title="@string/action_settings"
+        yourapp:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:summary="Settings"
+        android:title="Settings" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="music"
+            android:summary="On/Off"
+            android:title="Play music" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="screen"
+            android:summary="On/Off"
+            android:title="Screen always active" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="battery"
+            android:summary="On/Off"
+            android:title="Check battery on startup" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background_hints"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_hints_bottom_margin"
+    android:paddingLeft="@dimen/activity_hints_left_margin"
+    android:paddingRight="@dimen/activity_hints_right_margin"
+    android:paddingTop="@dimen/activity_hints_top_margin" >
+
+    <LinearLayout
+        android:id="@+id/layout_hints"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textview_hint1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textview_hint2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/button_task_get_hint"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:drawableLeft="@drawable/ic_action_get_hint"
+        android:text="@string/button_task_get_hint" />
+
+</LinearLayout>
